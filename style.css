@@ -1,0 +1,42 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif; /* Changed to a common sans-serif font */
+    margin: 40px;
+    background-color: #f0f2f5; /* A slightly softer background color */
+    color: #333;
+    line-height: 1.6; /* Improves readability */
+}
+
+/* Heading 1 Styles */
+h1 {
+    color: #0056b3; /* A slightly darker blue */
+    text-align: center; /* Center the main heading */
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styles */
+p {
+    margin-bottom: 10px;
+    font-size: 1.1em; /* Slightly larger text for readability */
+}
+
+/* Basic Container (optional, but good for structure) */
+/* You would wrap your main content in a div with this class if you use it */
+.container {
+    max-width: 800px; /* Limits content width for better readability */
+    margin: 0 auto; /* Centers the container */
+    padding: 20px;
+    background-color: #fff; /* White background for the content area */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Slightly rounded corners */
+}
+
+/* Example of how to style a link (if you add one later) */
+a {
+    color: #007bff;
+    text-decoration: none; /* Removes underline by default */
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
