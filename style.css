@@ -1,11 +1,49 @@
-/* In your style.css file */
+/* General Body Styles */
 body {
-    /* ... other styles ... */
+    font-family: Arial, sans-serif;
+    margin: 0; /* Changed to 0 for full-screen background */
+    background-color: #f0f8ff; /* Fallback color for the background */
+    color: #333;
+    line-height: 1.6;
 
+    /* --- BACKGROUND IMAGE PROPERTIES --- */
     background-image: url('images/background-image.jpg.jpg'); /* This path should now work! */
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #f0f8ff; /* Fallback color */
+    background-size: cover; /* Ensures image covers the entire body */
+    background-position: center center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    /* --- END BACKGROUND IMAGE PROPERTIES --- */
+}
+
+/* Heading 1 Styles */
+h1 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styles */
+p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* Basic Container (optional, but good for structure) */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent white for content over image */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Example of how to style a link (if you add one later) */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
